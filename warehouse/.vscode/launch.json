@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Launch WarehouseApplication",
+            "request": "launch",
+            "mainClass": "com.warehouse.warehouse.WarehouseApplication",
+            "projectName": "warehouse"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-StorehouseApplication<storehouse>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.storehouse.storehouse.StorehouseApplication",
+            "projectName": "storehouse",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
